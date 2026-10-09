@@ -85,15 +85,3 @@ python 09_ablation_necessity.py --limit 100
 passes per pair, since GPT-2-medium has 24 layers x 16 heads) from taking
 hours on first run. Raise it once you know your hardware's budget, keeping
 the CounterFact heads-up above in mind.
-
-## What got left out of the port
-
-- Colab-only cells: `!nvidia-smi`, Drive mounting, installing packages into
-  a persisted Drive folder, the `sys.path` ordering workaround.
-- Duplicate trailing cells in the notebook that just re-ran the Section 10
-  dataset-loading/gap-filtering logic a second time with no new result.
-- A one-off "patch only layers 12 and 16" cell superseded by the more
-  general triad-vs-whole-layer test (`08_group_vs_triad_test.py`).
-- The CounterFact-based patching approach the notebook tried and explicitly
-  rejected in favor of the TruthfulQA-boolean approach used here. (The
-  CounterFact pairs are still in `misconception_pairs.json`; see Datasets.)
