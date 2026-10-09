@@ -1,0 +1,16 @@
+# torch is NOT listed here -- install it yourself first, matching your
+# CUDA version (or CPU-only), from https://pytorch.org/get-started/locally/
+# These scripts auto-detect CUDA and fall back to CPU if it's not available.
+
+transformer_lens
+transformers
+accelerate
+bitsandbytes
+datasets
+huggingface_hub
+python-dotenv
+pandas
+numpy
+scipy
+matplotlib
+seaborn
