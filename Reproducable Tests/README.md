@@ -30,7 +30,7 @@ Each script is independently runnable and writes its outputs to
 ## Datasets
 
 Three prompt-pair files live in the project root. See
-[`DATASETS.md`](DATASETS_DESCRIPTION.md) for the full breakdown (sources, counts,
+[`DATASETS.md`](https://github.com/G-cae78/Lancelot/blob/main/Reproducable%20Tests/DATASET_DESCRIPTION.md) for the full breakdown (sources, counts,
 answer splits, gap stats and known caveats).
 
 | File | Pairs | What's in it | Used by scripts? |
